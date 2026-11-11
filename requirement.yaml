@@ -1,0 +1,13 @@
+name: ambler-classifier
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - torch>=2.0
+      - transformers>=4.30,<5
+      - scikit-learn>=1.3
+      - numpy>=1.23
+      - tqdm>=4.65
+      - joblib>=1.2
